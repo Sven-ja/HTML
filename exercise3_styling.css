@@ -1,0 +1,24 @@
+span.headline {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+span.talking {
+    font-style: italic;
+}
+
+div.intro {
+    color: black
+}
+
+div.pre-chorus {
+    color: blueviolet
+}
+
+div.chorus {
+    color: blue;
+}
+
+div.verse {
+    color: brown
+}

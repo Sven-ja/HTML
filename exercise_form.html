@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+</body>
+<form action="">
+    <p>
+        <label for="firstname">Firstname:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="John">
+    </p>
+    <p>
+        <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Doe">
+    </p>
+    <p>
+        <label>Course:
+            <select>
+                <option name="course" value="HTML">HTML</option>
+                <option name="course" value="JavaScript">JavaScript</option>
+                <option name="course" value="C#">C#</option>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label>Gender:<br>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="female">Female
+        </label>
+    </p>
+    <p>
+        <label>Hobbies:<br>
+            <input type="checkbox" name="hobbies" value="programming" checked>Programming<br>
+            <input type="checkbox" name="hobbies" value="basketball" checked>Basketball<br>
+            <input type="checkbox" name="hobbies" value="football">Football<br>
+            <input type="checkbox" name="hobbies" value="readingNovel">Reading Novel
+        </label>
+    </p>
+    <p>
+        <label>Phone:
+            <input type="number" name="phone" placeholder="004312345678912">
+        </label>
+    </p>
+    <p>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="5" cols="40"
+            placeholder="Schützenstraße 30, 6323,Vienna, Austria"></textarea>
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="johndoe@example.com">
+
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="********">
+    </p>
+    <input type="submit" value="Submit">
+    <input type="submit" value="Reset">
+</form>
+
+</html>
